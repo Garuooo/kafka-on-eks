@@ -106,7 +106,7 @@ module "eks" {
 
       min_size     = 1 #3
       max_size     = 6 #12
-      desired_size = 3 #5
+      desired_size = 2 #5
 
       instance_types = ["t3.medium"] #["r6i.2xlarge"]
 
